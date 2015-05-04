@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentGenerator", "DocumentGenerator\DocumentGenerator.csproj", "{0E5FB657-F73D-40E6-B6A5-1BE44E342B36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{FB50F1E1-8C6F-4C8A-AAF4-DE27349D9169}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5C490B66-4B06-42EF-A904-05F4F7D4449E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\DocumentGenerator-WAWS-dev.json = PublishScripts\Configurations\DocumentGenerator-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E5FB657-F73D-40E6-B6A5-1BE44E342B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5FB657-F73D-40E6-B6A5-1BE44E342B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5FB657-F73D-40E6-B6A5-1BE44E342B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5FB657-F73D-40E6-B6A5-1BE44E342B36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C490B66-4B06-42EF-A904-05F4F7D4449E} = {FB50F1E1-8C6F-4C8A-AAF4-DE27349D9169}
+	EndGlobalSection
+EndGlobal
